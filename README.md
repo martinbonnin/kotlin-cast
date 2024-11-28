@@ -2,7 +2,7 @@
 
 ## Polycast
 
-Polycast is a [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) for 3 functions to help you cast your Kotlin instances without going back in your typing flow:
+Polycast is a [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) for 3 functions that help you cast your Kotlin instances without going back in your typing flow:
 
 ```kotlin
 inline fun <reified T : Any> Any?.safeAs(): T? = this as? T
