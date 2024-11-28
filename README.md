@@ -34,7 +34,7 @@ Those functions are part of the kotlin-stdlib but not public, mainly because the
 ```kotlin
 val a = "Hello"
 val b: Int = a as Int // IJ will tell you "this cast can never succeed"
-val c: Int = a.cast<Int>() // You'll get a crash
+val c: Int = a.cast<Int>() // You'll get a crash without a warning.
 ```
 
 Learn more in [KT-8584](https://youtrack.jetbrains.com/issue/KT-8584/).
