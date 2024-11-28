@@ -29,6 +29,16 @@ val value = data.cast<Map<String, Any?>>()
 assertEquals("value", value) 
 ```
 
+Using type inference makes it even shorter:
+
+```kotlin
+fun doStuff(foo: Foo) { ... }
+
+val any: Any = TODO()
+
+doStuff(any.cast()) // cast to Foo automatically
+```
+
 Those functions are part of the kotlin-stdlib but not public, mainly because they break some diagnostics:
 
 ```kotlin
