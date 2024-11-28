@@ -1,8 +1,8 @@
-[![Maven Central](https://img.shields.io/maven-central/v/net.mbonnin.polycast/module?style=flat-square)](https://central.sonatype.com/namespace/net.mbonnin.polycast)
+[![Maven Central](https://img.shields.io/maven-central/v/net.mbonnin.cast/module?style=flat-square)](https://central.sonatype.com/namespace/net.mbonnin.cast)
 
-## Polycast
+## kotlin-cast
 
-Polycast is a [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) for 3 functions that help you cast your Kotlin instances without going back in your typing flow:
+kotlin-cast is a [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) for 3 functions that help you cast your Kotlin instances without going back in your typing flow:
 
 ```kotlin
 inline fun <reified T : Any> Any?.safeAs(): T? = this as? T
@@ -14,7 +14,7 @@ Import in your project:
 
 ```kotlin
 [libraries]
-polycast = "net.mbonnin.polycast:polycast-core:0.0.0"
+cast = "net.mbonnin.cast:cast-core:0.0.0"
 ```
 
 Usage:

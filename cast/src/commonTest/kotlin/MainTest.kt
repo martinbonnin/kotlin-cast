@@ -1,4 +1,4 @@
-import polycast.cast
+import cast.cast
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

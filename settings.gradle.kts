@@ -7,4 +7,4 @@ pluginManagement {
   }
 }
 
-include(":polycast-core")
+include(":cast")
