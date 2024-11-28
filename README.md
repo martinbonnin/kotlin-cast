@@ -24,9 +24,9 @@ val data: Any? = jsonToKotlin("{\"key\": \"value\"}")
 
 val value = data.cast<Map<String, Any?>>()
   .get("key")
-  .cast<String>()
+  .cast<String>() // YAYYYYY!!!
 
-assertEquals("value", value) // YAYYYYY!!!
+assertEquals("value", value) 
 ```
 
 Those functions are part of the kotlin-stdlib but not public, mainly because they break some diagnostics:
