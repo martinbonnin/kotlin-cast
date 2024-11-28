@@ -6,7 +6,14 @@ plugins {
 
 kotlin {
   jvm()
+
+  sourceSets.getByName("commonTest") {
+    dependencies {
+      implementation(kotlin("test"))
+    }
+  }
 }
+
 
 Librarian.module(project)
 
