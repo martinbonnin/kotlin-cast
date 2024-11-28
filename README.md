@@ -14,7 +14,7 @@ Import in your project:
 
 ```kotlin
 [libraries]
-cast = "net.mbonnin.cast:cast-core:0.0.0"
+cast = "net.mbonnin.cast:cast:0.0.0"
 ```
 
 Usage:
