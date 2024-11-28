@@ -1,4 +1,4 @@
-[![Maven Central](https://img.shields.io/maven-central/v/net.mbonnin.cast/module?style=flat-square)](https://central.sonatype.com/namespace/net.mbonnin.cast)
+[![Maven Central](https://img.shields.io/maven-central/v/net.mbonnin.cast/cast?style=flat-square)](https://central.sonatype.com/namespace/net.mbonnin.cast)
 
 ## kotlin-cast
 
